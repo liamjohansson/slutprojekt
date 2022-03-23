@@ -1,0 +1,27 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    color: purple;
+  }
+  
+  .nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
