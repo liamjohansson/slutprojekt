@@ -2,20 +2,21 @@
 <html lang="en-US">
 <meta charset="utf-8">
 
-<head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="css/home.css">
-</head>
 
-<head>
     <title>Los Angeles Lakers</title>
-</head>
-<body>
-    <div class="homeimg"> <img src="img/lakerslogga.jpg" alt="Lakers logo" width="64" height="64"> <style> div.homeimg { top: 0px; left: 0px; right: 0px; bottom: 0px; position: fixed; } </style> </div>
- 
 
+<body>
+
+<header>
+
+    <div class="homeimg"> <img src="img/lakers.jpg" alt="Lakers logo" width="64" height="64"></div>
+ 
+<nav>
     <ul>
       <li><a href="home.html">Home</a></li>
       <li><a href="roster.html">Roster</a></li>
@@ -23,7 +24,30 @@
       <li><a href="store.html">Store</a></li>
       <li><a href="news.html">News</a></li>
     </ul>
+</nav>
 
+</header>
+
+<div class="homebox">
+    <h1>The Los Angeles Lakers</h1>
+    <p>are an American professional basketball team based in Los Angeles. The Lakers compete in the National Basketball Association (NBA) as a member of the league's Western Conference Pacific Division. The Lakers play their home games at Crypto.com Arena, an arena shared with the NBA's Los Angeles Clippers, the Los Angeles Sparks of the Women's National Basketball Association, and the Los Angeles Kings of the National Hockey League. The Lakers are one of the most successful teams in the history of the NBA, and have won 17 NBA championships, tied with the Boston Celtics for the most in NBA history. </p>
+    <br><br>
+    <h2>Latest five games</h2>
+
+    <div class="standingslider">
+
+        <img class="mySlides" src="img/standings1.png" alt="bild">
+        <img class="mySlides" src="img/standings2.png" alt="bild">
+        <img class="mySlides" src="img/standings3.png" alt="bild">
+        <img class="mySlides" src="img/standings4.png" alt="bild">
+        <img class="mySlides" src="img/standings5.png" alt="bild">
+        <button class="slider-button display-left"
+    onclick="changeImage(-1)">&#129076;</button>
+        <button class="slider-button display-right"
+    onclick="changeImage(1)">&#129078;</button>
+    </div>
+        <script src="js/home.js"></script>
+</div>
 
 </body>
 
