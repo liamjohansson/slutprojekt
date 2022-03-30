@@ -2,23 +2,27 @@
 <html lang="en-US">
 <meta charset="utf-8">
 
-<head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="css/home.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<head>
     <title>Los Angeles Lakers</title>
-</head>
+
 <body>
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+
+    <img id="homeimg" src="img/lakers.jpg" alt="Lakers logo">
 
 <header>
 
-    <div class="homeimg"> <img src="img/lakers.jpg" alt="Lakers logo" width="64" height="64"> <style> div.homeimg { top: 0px; left: 0px; right: 0px; bottom: 0px; position: fixed; } </style> </div>
+    <div class="skipnav"><a href="#maincontent">Skip to main content</a></div>
+    
  
-<nav>
+<nav id="navigation">
     <ul>
       <li><a href="home.html">Home</a></li>
       <li><a href="roster.html">Roster</a></li>
@@ -28,8 +32,12 @@
     </ul>
 </nav>
 
-</header>
+<a href="js/domjs.js" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    
 
+</header>
 
 </body>
 

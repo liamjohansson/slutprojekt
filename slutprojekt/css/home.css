@@ -135,7 +135,6 @@ nav a:hover::before {
 }
 
 @media screen and (max-width:480px) {
-   body #homeimg { display: none; }
    nav li {
     display: flex;
     flex-direction: column;
@@ -154,4 +153,53 @@ nav a:hover::before {
     margin: 10px 10px 10px;
     padding: 10px 20px 10px;
   }
+}
+
+@media screen and (max-width:600px) {
+  body #homeimg { display: none; }
+
+  nav {
+    display: none;
+  }
+
+  nav {
+    overflow: hidden;
+    background-color: rgba(76,21,104,255);
+    position: relative;
+  }
+  #navigation a {
+    display: none;
+    color: rgb(253, 185, 39);
+  padding: -14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  display: flex;
+  align-self: center;
+  }
+
+  #navigation a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  #navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .homebox {
+    background-color: rgb(179, 36, 250);
+    margin: 10px 10px 10px;
+    padding: 10px 20px 10px;
+  }
+  
 }

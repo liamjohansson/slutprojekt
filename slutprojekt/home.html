@@ -7,12 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Los Angeles Lakers</title>
 
 <body>
 
-    
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
 
     <img id="homeimg" src="img/lakers.jpg" alt="Lakers logo">
 
@@ -20,10 +21,8 @@
 
     <div class="skipnav"><a href="#maincontent">Skip to main content</a></div>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
  
-<nav>
+<nav id="navigation">
     <ul>
       <li><a href="home.html">Home</a></li>
       <li><a href="roster.html">Roster</a></li>
@@ -32,6 +31,11 @@
       <li><a href="news.html">News</a></li>
     </ul>
 </nav>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    
 
 </header>
 
@@ -53,7 +57,7 @@
         <button class="slider-button display-right"
     onclick="changeImage(1)">&#129078;</button>
     </div>
-        <script src="js/home.js"></script>
+        <script src="js/domjs.js"></script>
 </div>
 
 </body>
