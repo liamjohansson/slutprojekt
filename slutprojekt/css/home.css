@@ -124,7 +124,7 @@ nav a:hover::before {
 }
 
 .slider-button:hover {
-  color: rgb(176, 255, 169);
+  color: rgb(104, 104, 104);
 }
 
 .display-left {
@@ -136,30 +136,25 @@ nav a:hover::before {
 }
 
 @media screen and (max-width:700px) {
-   nav li {
+
+  body #homeimg { display: none; }
+  
+  nav li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -30px;
-    margin-bottom: 10px;
-    width: 50%;
+    line-height: 0pt;
    }
+
+   nav ul {
+     margin-top: 0px;
+     margin-bottom: 20px;
+   }
+
    nav a::before {
-   display: none;
-  }
-  nav a {
-    font-size: 20px;
-  }
-  .homebox {
-    background-color: rgb(179, 36, 250);
-    margin: 10px 10px 10px;
-    padding: 10px 20px 10px;
-  }
-}
-
-@media screen and (max-width:700px) {
-  body #homeimg { display: none; }
-
+    display: none;
+   }
+   
   header {
     height: 50px;
   }
@@ -177,18 +172,20 @@ nav a:hover::before {
     overflow: hidden;
     background-color: rgba(76,21,104,255);
     position: relative;
-    width: 600px;
+    width: 100%;
   }
 
   #navigation a {
     display: none;
     color: rgb(253, 185, 39);
-  padding: -14px -16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  display: flex;
-  align-self: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-decoration: none;
+    font-size: 17px;
+  
+
+    display: flex;
+    align-self: center;
   }
 
 
