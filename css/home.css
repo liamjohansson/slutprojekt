@@ -245,7 +245,6 @@ nav a:hover::before {
   }
 
   #navigation a {
-    display: none;
     color: rgb(253, 185, 39);
     padding-left: 30%;
     padding-right: 30%;
